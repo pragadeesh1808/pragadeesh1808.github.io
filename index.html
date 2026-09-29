@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pragadeeswaran D | Portfolio</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,500;12..96,700&family=IBM+Plex+Sans:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#F2F4F7;--ink:#101828;--muted:#586377;--line:#D3D9E2;--accent:#0F6E5C;--band:rgba(15,110,92,.10);
+--head:"Bricolage Grotesque","Trebuchet MS",sans-serif;--body:"IBM Plex Sans","Segoe UI",Arial,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0E1420;--ink:#E6EAF2;--muted:#9AA5B8;--line:#26314A;--accent:#4CC9A7;--band:rgba(76,201,167,.12)}}
+:root[data-theme="dark"]{--bg:#0E1420;--ink:#E6EAF2;--muted:#9AA5B8;--line:#26314A;--accent:#4CC9A7;--band:rgba(76,201,167,.12)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:400 1.0625rem/1.6 var(--body)}
+main{max-width:64rem;margin:0 auto;padding:0 1.5rem 4rem}
+a{color:var(--accent);text-underline-offset:.2em}
+a:focus-visible{outline:3px solid var(--accent);outline-offset:3px}
+h1,h2,h3{font-family:var(--head);line-height:1.1;margin:0}
+.hero{padding:5rem 0 1rem}
+h1{font-size:clamp(2.4rem,8.5vw,5.75rem);font-weight:700;letter-spacing:-.03em}
+.lead{max-width:38rem;font-size:1.25rem;color:var(--muted);margin:1.25rem 0 0}
+.links{display:flex;flex-wrap:wrap;gap:.5rem 1.5rem;margin:1.75rem 0 0}
+.links a{font-weight:500}
+section{padding-top:3.5rem}
+h2{font-size:2rem;margin-bottom:1.25rem}
+.proj{display:grid;grid-template-columns:9rem 1fr;gap:.25rem 2rem;padding:1.4rem 0;border-top:1px solid var(--line)}
+.proj h3{grid-column:2;font-size:1.35rem}
+.proj .st{grid-column:1;grid-row:1/3;color:var(--muted);font-size:.95rem}
+.proj .st b{display:block;color:var(--accent);font-weight:500}
+.proj p{grid-column:2;margin:0;max-width:44rem}
+dl{margin:0;display:grid;grid-template-columns:9rem 1fr;gap:.9rem 2rem;border-top:1px solid var(--line);padding-top:1.4rem}
+dt{color:var(--muted)}dd{margin:0;max-width:44rem}
+@media(max-width:34rem){.proj,dl{grid-template-columns:1fr}.proj h3,.proj p,.proj .st{grid-column:1;grid-row:auto}dt{margin-bottom:-.6rem}}
+footer p{max-width:40rem}
+@media(prefers-reduced-motion:reduce){.curve{stroke-dashoffset:0;animation:none}}
+</style>
+</head>
+<body>
+<main>
+<header class="hero">
+<h1>Pragadeeswaran D</h1>
+<p class="lead">M.Tech Computer Science student who builds Java and Spring Boot backends, and is researching machine learning to predict electric-vehicle battery health.</p>
+<p class="links"><a href="mailto:pragadeeswarandhanabalan@gmail.com">Email</a><a href="https://www.linkedin.com/in/pragadeeswaran-d-4b8a50245">LinkedIn</a><a href="https://github.com/pragadeesh1808">GitHub</a></p>
+</header>
+
+<section aria-labelledby="pj">
+<h2 id="pj">Projects</h2>
+<article class="proj"><div class="st"><b>In progress</b>M.Tech research</div><h3>EV battery health prediction</h3>
+<p>Predicting SOH and remaining useful life (RUL) from cycling data, and recommending second-life use. Reviewed LSTM-Transformer, CNN-TCN-LSTM and XGBoost models, with SHAP for explainability, across the NASA, Oxford and CALCE datasets.</p></article>
+<article class="proj"><div class="st"><b>Completed</b>Java, Spring Boot, MySQL</div><h3>Expense Tracker</h3>
+<p>A full backend with CRUD operations, user authentication and a structured REST API across 5+ endpoints. I designed the MySQL schema for multi-user expense records with query-optimized reads.</p></article>
+<article class="proj"><div class="st"><b>Completed</b>Python, OpenCV, scikit-learn</div><h3>Emotion-based music recommender</h3>
+<p>A real-time pipeline that captures faces with OpenCV, classifies mood from live video with scikit-learn, and maps the emotion to curated playlists. Presented as a paper at an IEEE conference.</p></article>
+<article class="proj"><div class="st"><b>Completed</b>Python</div><h3>Python automation utilities</h3>
+<p>Scripts that automate repetitive data processing and file handling, reducing manual effort on batch operations.</p></article>
+</section>
+
+<section aria-labelledby="pb">
+<h2 id="pb">Publications</h2>
+<article class="proj"><div class="st"><b>Presented</b>IEEE conference</div><h3>ML-based emotion recognition system</h3>
+<p>Paper on a machine learning system that detects emotion from live video and uses it to recommend music. It is the research behind the Emotion-based music recommender project.</p></article>
+</section>
+
+<section aria-labelledby="ex">
+<h2 id="ex">Experience</h2>
+<article class="proj"><div class="st"><b>Intern</b></div><h3>Trust for Mentally &amp; Physically Challenged Students</h3>
+<p>Supported digital data management and organization of student records, and built small automation scripts to streamline digital filing.</p></article>
+</section>
+
+<section aria-labelledby="sk">
+<h2 id="sk">Skills</h2>
+<dl>
+<dt>Languages</dt><dd>Java, Python, C, JavaScript.</dd>
+<dt>Core CS</dt><dd>Data structures and algorithms, object-oriented programming, problem solving.</dd>
+<dt>Backend</dt><dd>Spring Boot, REST APIs, MySQL.</dd>
+<dt>Machine learning</dt><dd>Time-series models for battery health, explainability with SHAP and Grad-CAM.</dd>
+<dt>Tools</dt><dd>Git, GitHub, VS Code, Jupyter Notebook, Postman.</dd>
+<dt>Certifications</dt><dd>Java and Python Programming (HackerRank), RPA UiPath (Infosys).</dd>
+</dl>
+</section>
+
+<section aria-labelledby="ed">
+<h2 id="ed">Education</h2>
+<dl>
+<dt>2026 to 2028</dt><dd>M.Tech, Computer Science and Engineering, Amrita Vishwa Vidyapeetham, Coimbatore (expected).</dd>
+<dt>2022 to 2026</dt><dd>B.Tech, Computer Science and Engineering, SRM Institute of Science and Technology, Tiruchirappalli.</dd>
+</dl>
+</section>
+
+<footer>
+<section aria-labelledby="ct2">
+<h2 id="ct2">Get in touch</h2>
+<p>I'm looking for software development, R&amp;D and systems engineering roles. Email me at <a href="mailto:pragadeeswarandhanabalan@gmail.com">pragadeeswarandhanabalan@gmail.com</a>, or find me on <a href="https://www.linkedin.com/in/pragadeeswaran-d-4b8a50245">LinkedIn</a> and <a href="https://github.com/pragadeesh1808">GitHub</a>.</p>
+</section>
+</footer>
+</main>
+</body>
+</html>
